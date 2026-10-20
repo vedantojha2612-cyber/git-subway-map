@@ -27,6 +27,23 @@ class TestGitSubwayMap(unittest.TestCase):
         cls.project_root = os.path.abspath(os.path.join(CURRENT_DIR, ".."))
         cls.demo_dir = os.path.join(cls.project_root, "test-repo")
         create_demo_repository(cls.demo_dir)
+        # Ensure static distribution test fixtures exist if not prebuilt
+        os.makedirs(STATIC_DIR, exist_ok=True)
+        os.makedirs(os.path.join(STATIC_DIR, "assets"), exist_ok=True)
+        index_file = os.path.join(STATIC_DIR, "index.html")
+        if not os.path.isfile(index_file):
+            with open(index_file, "w", encoding="utf-8") as f:
+                f.write('<!DOCTYPE html><html><body><div id="root"><h1>Git Subway Map</h1></div></body></html>')
+        for static_file in ["favicon.svg", "icons.svg"]:
+            p = os.path.join(STATIC_DIR, static_file)
+            if not os.path.isfile(p):
+                with open(p, "w", encoding="utf-8") as f:
+                    f.write("<svg></svg>")
+        for asset_file in ["index-C3WlD3-2.js", "index-DBbwAuXo.css"]:
+            p = os.path.join(STATIC_DIR, "assets", asset_file)
+            if not os.path.isfile(p):
+                with open(p, "w", encoding="utf-8") as f:
+                    f.write("/* asset */")
         cls.client = TestClient(app)
 
     def test_health_endpoint(self):

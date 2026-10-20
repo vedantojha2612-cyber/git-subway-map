@@ -1,0 +1,66 @@
+{
+  "project": "Git Subway Map",
+  "target_platform": "YouTube Shorts",
+  "format": "Vertical 9:16 (1080x1920)",
+  "duration_seconds": 35,
+  "style": "Aesthetic UI Showcase (Fast-paced, kinetic typography, zero AI voiceover)",
+  "title_variations": [
+    {
+      "rank": 1,
+      "title": "I turned my Git commit graph into the Tokyo Metro 🚇 #shorts",
+      "hook_angle": "Curiosity & High Visual Contrast",
+      "character_count": 60
+    },
+    {
+      "rank": 2,
+      "title": "Stop reading git graphs like it's 1995 💀 #programming #tech",
+      "hook_angle": "Pain Point & Dev Humor",
+      "character_count": 59
+    },
+    {
+      "rank": 3,
+      "title": "This open-source tool makes your Git tree look incredible ✨ #coding",
+      "hook_angle": "Showcase & Utility Praise",
+      "character_count": 67
+    }
+  ],
+  "video_description": "Turn your messy Git commit tree into a gorgeous Tokyo / London Underground transit map with a single command: `python run.py`.\n\nBuilt with an octolinear 45°/90° DAG layout engine, FastAPI, and React canvas pan/zoom.\n\n⭐ 100% Free & Open Source under the MIT License!\n🔗 Star & clone the repository: https://github.com/saarthakojha/git-subway-map\n\nTIMESTAMPS:\n0:00 The problem with standard git log\n0:03 Single command execution (`python run.py`)\n0:07 Tokyo Metro topological layout reveal\n0:14 Merge commit interchange transfer concourses\n0:21 Interactive Station Dossier Drawer (one-click SHA copy)\n0:27 Realtime radar minimap & route isolation\n0:31 Star the repo & loop\n\n#programming #git #developer #coding #webdev #softwareengineer #github #tech #opensource #python #reactjs #computerscience",
+  "pinned_comment": "🚇 Turn your repo into a subway map right now:\n👉 https://github.com/saarthakojha/git-subway-map\n\nDrop a ⭐️ on GitHub if you hate ugly `git log --graph` outputs! What line name would your current branch get? Let me know below 👇",
+  "hashtags": [
+    "#shorts",
+    "#programming",
+    "#git",
+    "#developer",
+    "#coding",
+    "#webdev",
+    "#softwareengineer",
+    "#github",
+    "#tech",
+    "#opensource",
+    "#python",
+    "#reactjs",
+    "#computerscience"
+  ],
+  "tags": [
+    "git subway map",
+    "git visualizer",
+    "git log graph alternative",
+    "developer tools",
+    "open source projects",
+    "github open source",
+    "git tutorial",
+    "tokyo metro git",
+    "octolinear git graph",
+    "coding shorts",
+    "software engineering",
+    "cool developer tools 2026",
+    "fastapi react project",
+    "saarthak ojha"
+  ],
+  "category_id": "28",
+  "category_name": "Science & Technology",
+  "default_language": "en",
+  "audience": {
+    "made_for_kids": false
+  }
+}
